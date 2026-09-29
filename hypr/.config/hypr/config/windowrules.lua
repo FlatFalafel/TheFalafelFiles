@@ -21,6 +21,7 @@ hl.window_rule({ match = { xdg_tag = "^(.*game.*)$" }, workspace = gamingWorkspa
 hl.window_rule({ match = { class = gamingApps }, workspace = gamingWorkspace })
 hl.window_rule({ match = { class = "^(steam)$", title = "^(Friends List)$" }, float = true })
 hl.window_rule({ match = { class = "^(steam)$", title = "^(Launching\\.{3})$" }, float = true, center = true, workspace = gamingWorkspace })
+hl.window_rule({ match = { class = "^(steam)$", title = "^(Sign in to Steam)$" }, float = true, center = true })
 hl.window_rule({
     match = {
         class         = gamingApps,
