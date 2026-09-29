@@ -1,0 +1,10 @@
+# .gitignore
+**/.git/
+**/cache/
+**/tmp/
+**/*.log
+**/*.state
+**/*_history
+**/monitors.lua
+**/variables.lua
+**/noctalia.lua
