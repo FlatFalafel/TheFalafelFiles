@@ -52,11 +52,7 @@ hl.monitor({
 })
 hl.monitor({
     output = "HDMI-A-1",
-    disabled = false,
-    mode = "3840x2160@60.00Hz",
-    position = "4880x170",
-    scale = 1,
-    cm = "srgb",
+    disabled = true,
 })
 
 -- Keybinds

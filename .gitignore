@@ -3,6 +3,7 @@
 **/cache/
 **/tmp/
 **/*.log
+**/*.bak
 **/*.state
 **/*_history
 **/monitors.lua
